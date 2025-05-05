@@ -81,7 +81,6 @@ public class UsuarioController {
 	
 	@PatchMapping("/usuario/{id}")
 	public ResponseEntity<?> updateUsuarioP(@PathVariable UUID id, @RequestBody Map<String, Object> patch) {
-		System.out.println("aaaqui");
 		var status = usuarioService.updateUsuarioP(id, patch);
 		if (status.value() == Constants.DOSCIENTOS) {
 			EstadoResponse er = (EstadoResponse) Utils.generarResponse(status);
