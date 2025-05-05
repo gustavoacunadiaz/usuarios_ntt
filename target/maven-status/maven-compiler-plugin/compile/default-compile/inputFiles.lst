@@ -1,0 +1,15 @@
+C:\git\usuarios\src\main\java\com\usuarios\controller\UsuarioController.java
+C:\git\usuarios\src\main\java\com\usuarios\entity\Telefono.java
+C:\git\usuarios\src\main\java\com\usuarios\entity\Usuario.java
+C:\git\usuarios\src\main\java\com\usuarios\repository\ITelefonoRepository.java
+C:\git\usuarios\src\main\java\com\usuarios\repository\IUsuarioRepository.java
+C:\git\usuarios\src\main\java\com\usuarios\service\ITelefonoService.java
+C:\git\usuarios\src\main\java\com\usuarios\service\IUsuarioService.java
+C:\git\usuarios\src\main\java\com\usuarios\service\TelefonoService.java
+C:\git\usuarios\src\main\java\com\usuarios\service\UsuarioService.java
+C:\git\usuarios\src\main\java\com\usuarios\UsuariosApplication.java
+C:\git\usuarios\src\main\java\com\usuarios\utils\Constants.java
+C:\git\usuarios\src\main\java\com\usuarios\utils\EstadoResponse.java
+C:\git\usuarios\src\main\java\com\usuarios\utils\EstadoResponseError.java
+C:\git\usuarios\src\main\java\com\usuarios\utils\IResponse.java
+C:\git\usuarios\src\main\java\com\usuarios\utils\Utils.java

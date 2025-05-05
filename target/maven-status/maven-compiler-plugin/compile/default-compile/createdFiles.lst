@@ -1,0 +1,15 @@
+com\usuarios\repository\IUsuarioRepository.class
+com\usuarios\utils\Utils.class
+com\usuarios\service\TelefonoService.class
+com\usuarios\utils\EstadoResponseError.class
+com\usuarios\service\UsuarioService.class
+com\usuarios\entity\Usuario.class
+com\usuarios\utils\Constants.class
+com\usuarios\service\ITelefonoService.class
+com\usuarios\repository\ITelefonoRepository.class
+com\usuarios\utils\IResponse.class
+com\usuarios\UsuariosApplication.class
+com\usuarios\entity\Telefono.class
+com\usuarios\service\IUsuarioService.class
+com\usuarios\controller\UsuarioController.class
+com\usuarios\utils\EstadoResponse.class
