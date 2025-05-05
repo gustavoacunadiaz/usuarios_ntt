@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "69fbcd01-e5c3-4814-89cf-738287bd29c1",
+		"name": "usuarios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "15756649",
+		"_collection_link": "https://red-moon-498594.postman.co/workspace/NodeJS~5773216e-86d5-4ad2-ad93-b96da524cbd3/collection/15756649-69fbcd01-e5c3-4814-89cf-738287bd29c1?action=share&source=collection_link&creator=15756649"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Jaaueean Rodriguez\",\r\n    \"correo\": \"jss3se@z.org\",\r\n    \"contraseña\": \"Hser4rrs#\",\r\n    \"telefonos\": [\r\n                    {\r\n                        \"numero\": \"123454467\",\r\n                        \"codigoCiudad\": \"1\",\r\n                        \"codigoPais\": \"57\"\r\n                    }\r\n                ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"f81d4fae-7dec-11d0-a765-00a0c91e6bf6\",\r\n    \"nombre\": \"wwwew\",\r\n    \"correo\": \"sssa@ail.com\",\r\n    \"contraseña\": \"Hffr@\",\r\n    \"telefonos\": [\r\n                    {\r\n                        \"numero\": \"66666\",\r\n                        \"codigoCiudad\": \"3\",\r\n                        \"codigoPais\": \"57\"\r\n                    }\r\n                ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"f81d4fae-7dec-11d0-a765-00a0c91e6bf6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "patch",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"correo\" : \"gustavo.acuna.diuaz@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/usuario/f81d4fae-7dec-11d0-a765-00a0c91e6bf6"
+			},
+			"response": []
+		}
+	]
+}

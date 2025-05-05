@@ -4,7 +4,7 @@
 Descripción: Este proyecto se centra en el mantenimeitno de datos de Usuario
 Funcionalidades: Consulatr usuarios, crear usuarios, modificar usuarios y eliminar usuarios
 Uso: 
-- clonar o descargar este repositorio
+- clonar o descargar este repositorio https://github.com/gustavoacunadiaz/usuarios_ntt.git
 - abrir en IDE
 - descargar dependencias maven
 - inicializar
